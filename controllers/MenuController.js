@@ -24,6 +24,7 @@ module.exports = class MenuController {
             break;
           case "Exit":
             this.exit();
+            break;
           default:
             console.log("Invalid Input");
             this.main();
@@ -45,7 +46,7 @@ module.exports = class MenuController {
   }
 
   exit() {
-    console.log("Thanks for using AddressBloc@");
+    console.log("Thanks for using AddressBloc!");
     process.exit();
   }
 };
